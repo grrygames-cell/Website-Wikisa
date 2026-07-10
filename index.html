@@ -1,0 +1,2411 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WIKISA Advertising - Workshop Neon Box, Huruf Timbul, Signage & Branding Jabodetabek</title>
+    <meta name="description" content="WIKISA Advertising menyediakan Neon Box, Huruf Timbul, Cutting Sticker, Signage, Billboard, Branding Toko & Kantor di Jakarta Barat, Tangerang, BSD, Gading Serpong, Alam Sutera, Karawaci, Bintaro, Bekasi, Depok, Bogor & Jabodetabek." />
+    <meta name="keywords" content="neon box jakarta, huruf timbul tangerang, cutting sticker bsd, signage gading serpong, branding toko alam sutera, billboard karawaci, acp cladding cikupa, digital printing bintaro, laser cutting bekasi, cnc router depok, wikisa advertising" />
+    <link rel="canonical" href="https://wikisaads.com/" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="WIKISA Advertising - Workshop Neon Box, Huruf Timbul, Signage & Branding" />
+    <meta property="og:description" content="Solusi branding & signage profesional untuk bisnis Anda di Jabodetabek. Neon Box, Huruf Timbul, Billboard, Branding Toko & Kantor." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://wikisaads.com/" />
+    <meta property="og:image" content="https://wikisaads.com/img/og-image.jpg" />
+
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Workshop WIKISA Advertising",
+            "image": "https://wikisaads.com/img/logo.png",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Jakarta Barat",
+                "addressRegion": "DKI Jakarta",
+                "addressCountry": "ID"
+            },
+            "telephone": "+6285882314913",
+            "email": "wikisaads08@gmail.com",
+            "priceRange": "$$",
+            "openingHours": "Mo-Fr 08:00-17:00",
+            "sameAs": [
+                "https://www.instagram.com/wikisaads",
+                "https://www.facebook.com/wikisaads"
+            ]
+        }
+    </script>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <style>
+        /* ============================================================
+           ROOT VARIABLES & RESET
+           ============================================================ */
+        :root {
+            --primary: #0a2540;
+            --primary-dark: #06182b;
+            --primary-light: #1a3a6b;
+            --secondary: #f47b20;
+            --secondary-light: #fca34d;
+            --secondary-dark: #d96a0e;
+            --white: #ffffff;
+            --light-bg: #f8f9fc;
+            --gray: #6c7a8a;
+            --text-dark: #1a2634;
+            --shadow: 0 10px 40px rgba(10, 37, 64, 0.12);
+            --shadow-hover: 0 20px 60px rgba(10, 37, 64, 0.18);
+            --radius: 16px;
+            --transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--text-dark);
+            background: var(--white);
+            overflow-x: hidden;
+            padding-top: 76px;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .section-padding {
+            padding: 90px 0;
+        }
+
+        .section-title {
+            font-weight: 800;
+            font-size: 2.6rem;
+            letter-spacing: -0.02em;
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .section-title span {
+            color: var(--secondary);
+        }
+
+        .section-subtitle {
+            font-size: 1.1rem;
+            color: var(--gray);
+            max-width: 640px;
+            margin: 0 auto 3rem auto;
+            line-height: 1.7;
+        }
+
+        .badge-orange {
+            background: var(--secondary);
+            color: var(--white);
+            padding: 6px 18px;
+            border-radius: 50px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            display: inline-block;
+            margin-bottom: 12px;
+        }
+
+        .btn-primary-custom {
+            background: var(--secondary);
+            color: var(--white);
+            padding: 14px 36px;
+            border-radius: 50px;
+            font-weight: 600;
+            border: none;
+            transition: var(--transition);
+            box-shadow: 0 8px 24px rgba(244, 123, 32, 0.35);
+        }
+
+        .btn-primary-custom:hover {
+            background: var(--secondary-dark);
+            color: var(--white);
+            transform: translateY(-3px);
+            box-shadow: 0 14px 32px rgba(244, 123, 32, 0.45);
+        }
+
+        .btn-outline-custom {
+            background: transparent;
+            color: var(--primary);
+            padding: 14px 36px;
+            border-radius: 50px;
+            font-weight: 600;
+            border: 2px solid var(--primary);
+            transition: var(--transition);
+        }
+
+        .btn-outline-custom:hover {
+            background: var(--primary);
+            color: var(--white);
+            transform: translateY(-3px);
+        }
+
+        /* ============================================================
+           NAVBAR
+           ============================================================ */
+        .navbar-custom {
+            background: rgba(255, 255, 255, 0.97);
+            backdrop-filter: blur(12px);
+            box-shadow: 0 2px 30px rgba(0, 0, 0, 0.06);
+            padding: 12px 0;
+            transition: var(--transition);
+        }
+
+        .navbar-custom .navbar-brand {
+            font-weight: 900;
+            font-size: 1.6rem;
+            color: var(--primary);
+            letter-spacing: -0.03em;
+        }
+
+        .navbar-custom .navbar-brand span {
+            color: var(--secondary);
+        }
+
+        .navbar-custom .navbar-brand small {
+            font-size: 0.6rem;
+            font-weight: 400;
+            color: var(--gray);
+            display: block;
+            letter-spacing: 1px;
+            margin-top: -4px;
+        }
+
+        .navbar-custom .nav-link {
+            font-weight: 600;
+            color: var(--text-dark);
+            padding: 8px 18px !important;
+            border-radius: 50px;
+            transition: var(--transition);
+            font-size: 0.9rem;
+        }
+
+        .navbar-custom .nav-link:hover,
+        .navbar-custom .nav-link.active {
+            color: var(--secondary);
+            background: rgba(244, 123, 32, 0.08);
+        }
+
+        .navbar-custom .nav-link i {
+            margin-right: 6px;
+            font-size: 0.85rem;
+        }
+
+        .navbar-toggler {
+            border: none;
+            padding: 6px 10px;
+        }
+
+        .navbar-toggler:focus {
+            box-shadow: none;
+        }
+
+        /* ============================================================
+           HERO
+           ============================================================ */
+        .hero {
+            background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 50%, var(--primary-light) 100%);
+            padding: 100px 0 80px;
+            position: relative;
+            overflow: hidden;
+            min-height: 92vh;
+            display: flex;
+            align-items: center;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -20%;
+            width: 700px;
+            height: 700px;
+            background: radial-gradient(circle, rgba(244, 123, 32, 0.15) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+
+        .hero::after {
+            content: '';
+            position: absolute;
+            bottom: -30%;
+            left: -10%;
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, rgba(244, 123, 32, 0.08) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero h1 {
+            font-weight: 900;
+            font-size: 3.8rem;
+            line-height: 1.1;
+            letter-spacing: -0.03em;
+            color: var(--white);
+        }
+
+        .hero h1 span {
+            color: var(--secondary);
+        }
+
+        .hero p {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 1.2rem;
+            line-height: 1.8;
+            max-width: 540px;
+            margin-top: 1.5rem;
+        }
+
+        .hero .btn-hero {
+            margin-top: 2rem;
+        }
+
+        .hero-stats {
+            margin-top: 3rem;
+            display: flex;
+            gap: 3rem;
+            flex-wrap: wrap;
+        }
+
+        .hero-stats .stat-item h3 {
+            color: var(--white);
+            font-weight: 800;
+            font-size: 2.2rem;
+        }
+
+        .hero-stats .stat-item p {
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 0.9rem;
+            margin: 0;
+        }
+
+        .hero-image {
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero-image .floating-card {
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: var(--radius);
+            padding: 28px 32px;
+            color: var(--white);
+            max-width: 420px;
+            margin: 0 auto;
+        }
+
+        .hero-image .floating-card i {
+            font-size: 2.8rem;
+            color: var(--secondary);
+            margin-bottom: 12px;
+        }
+
+        .hero-image .floating-card h4 {
+            font-weight: 700;
+        }
+
+        .hero-image .floating-card p {
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 0.95rem;
+        }
+
+        /* ============================================================
+           TENTANG KAMI
+           ============================================================ */
+        .about-section {
+            background: var(--light-bg);
+        }
+
+        .about-image-wrap {
+            position: relative;
+            border-radius: var(--radius);
+            overflow: hidden;
+            box-shadow: var(--shadow);
+        }
+
+        .about-image-wrap .about-placeholder {
+            width: 100%;
+            min-height: 400px;
+            background: linear-gradient(135deg, var(--primary-dark), var(--primary-light));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: rgba(255, 255, 255, 0.1);
+            font-size: 6rem;
+        }
+
+        .about-image-wrap .experience-badge {
+            position: absolute;
+            bottom: 24px;
+            left: 24px;
+            background: var(--secondary);
+            color: var(--white);
+            padding: 16px 24px;
+            border-radius: var(--radius);
+            font-weight: 700;
+            font-size: 1.2rem;
+            box-shadow: 0 8px 24px rgba(244, 123, 32, 0.35);
+        }
+
+        .about-image-wrap .experience-badge small {
+            display: block;
+            font-weight: 400;
+            font-size: 0.8rem;
+            opacity: 0.9;
+        }
+
+        .about-content h2 {
+            font-weight: 800;
+            font-size: 2.4rem;
+            color: var(--primary);
+        }
+
+        .about-content h2 span {
+            color: var(--secondary);
+        }
+
+        .about-content p {
+            color: var(--gray);
+            line-height: 1.8;
+        }
+
+        .about-features {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            margin-top: 1.5rem;
+        }
+
+        .about-features .feature-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-weight: 500;
+        }
+
+        .about-features .feature-item i {
+            color: var(--secondary);
+            font-size: 1.2rem;
+            width: 32px;
+            height: 32px;
+            background: rgba(244, 123, 32, 0.12);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        /* ============================================================
+           LAYANAN
+           ============================================================ */
+        .services-section {
+            background: var(--white);
+        }
+
+        .service-card {
+            background: var(--white);
+            border-radius: var(--radius);
+            padding: 32px 28px;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            border: 1px solid rgba(0, 0, 0, 0.04);
+            height: 100%;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .service-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--secondary), var(--secondary-light));
+            opacity: 0;
+            transition: var(--transition);
+        }
+
+        .service-card:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-hover);
+        }
+
+        .service-card:hover::before {
+            opacity: 1;
+        }
+
+        .service-card .icon-wrap {
+            width: 68px;
+            height: 68px;
+            background: rgba(244, 123, 32, 0.10);
+            border-radius: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 18px;
+            font-size: 2rem;
+            color: var(--secondary);
+            transition: var(--transition);
+        }
+
+        .service-card:hover .icon-wrap {
+            background: var(--secondary);
+            color: var(--white);
+            transform: scale(1.05);
+        }
+
+        .service-card h5 {
+            font-weight: 700;
+            font-size: 1.15rem;
+            color: var(--primary);
+            margin-bottom: 8px;
+        }
+
+        .service-card p {
+            color: var(--gray);
+            font-size: 0.92rem;
+            line-height: 1.6;
+            margin-bottom: 0;
+        }
+
+        /* ============================================================
+           PRODUK
+           ============================================================ */
+        .products-section {
+            background: var(--light-bg);
+        }
+
+        .product-card {
+            background: var(--white);
+            border-radius: var(--radius);
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            height: 100%;
+        }
+
+        .product-card:hover {
+            transform: translateY(-6px);
+            box-shadow: var(--shadow-hover);
+        }
+
+        .product-card .product-img {
+            height: 200px;
+            background: linear-gradient(135deg, var(--primary-dark), var(--primary-light));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3.5rem;
+            color: rgba(255, 255, 255, 0.3);
+            position: relative;
+        }
+
+        .product-card .product-img .product-tag {
+            position: absolute;
+            top: 14px;
+            right: 14px;
+            background: var(--secondary);
+            color: var(--white);
+            padding: 4px 14px;
+            border-radius: 50px;
+            font-size: 0.7rem;
+            font-weight: 600;
+        }
+
+        .product-card .product-body {
+            padding: 22px 24px 24px;
+        }
+
+        .product-card .product-body h5 {
+            font-weight: 700;
+            color: var(--primary);
+        }
+
+        .product-card .product-body p {
+            color: var(--gray);
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+
+        /* ============================================================
+           PORTFOLIO
+           ============================================================ */
+        .portfolio-section {
+            background: var(--white);
+        }
+
+        .portfolio-item {
+            border-radius: var(--radius);
+            overflow: hidden;
+            position: relative;
+            cursor: pointer;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+        }
+
+        .portfolio-item:hover {
+            transform: scale(1.02);
+            box-shadow: var(--shadow-hover);
+        }
+
+        .portfolio-item .portfolio-img {
+            width: 100%;
+            height: 260px;
+            object-fit: cover;
+            background: linear-gradient(135deg, var(--primary), var(--primary-light));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 4rem;
+            color: rgba(255, 255, 255, 0.15);
+        }
+
+        .portfolio-item .portfolio-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(0deg, rgba(10, 37, 64, 0.85) 0%, transparent 60%);
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 24px;
+            opacity: 0;
+            transition: var(--transition);
+        }
+
+        .portfolio-item:hover .portfolio-overlay {
+            opacity: 1;
+        }
+
+        .portfolio-item .portfolio-overlay h5 {
+            color: var(--white);
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+
+        .portfolio-item .portfolio-overlay p {
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 0.85rem;
+            margin: 0;
+        }
+
+        /* ============================================================
+           BLOG
+           ============================================================ */
+        .blog-section {
+            background: var(--light-bg);
+        }
+
+        .blog-card {
+            background: var(--white);
+            border-radius: var(--radius);
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            height: 100%;
+            cursor: pointer;
+        }
+
+        .blog-card:hover {
+            transform: translateY(-6px);
+            box-shadow: var(--shadow-hover);
+        }
+
+        .blog-card .blog-img {
+            height: 180px;
+            background: linear-gradient(135deg, var(--primary), var(--primary-light));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.8rem;
+            color: rgba(255, 255, 255, 0.12);
+            position: relative;
+        }
+
+        .blog-card .blog-img .blog-date {
+            position: absolute;
+            bottom: 12px;
+            left: 16px;
+            background: rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(6px);
+            color: var(--white);
+            padding: 4px 14px;
+            border-radius: 50px;
+            font-size: 0.7rem;
+            font-weight: 500;
+        }
+
+        .blog-card .blog-body {
+            padding: 20px 22px 24px;
+        }
+
+        .blog-card .blog-body .blog-tag {
+            font-size: 0.7rem;
+            font-weight: 600;
+            color: var(--secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .blog-card .blog-body h5 {
+            font-weight: 700;
+            font-size: 1.05rem;
+            color: var(--primary);
+            margin: 6px 0 10px;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .blog-card .blog-body p {
+            color: var(--gray);
+            font-size: 0.88rem;
+            line-height: 1.6;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .blog-card .blog-body .btn-read {
+            color: var(--secondary);
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: var(--transition);
+        }
+
+        .blog-card .blog-body .btn-read:hover {
+            color: var(--secondary-dark);
+            transform: translateX(4px);
+        }
+
+        /* ============================================================
+           FAQ
+           ============================================================ */
+        .faq-section {
+            background: var(--white);
+        }
+
+        .accordion-custom .accordion-item {
+            border: none;
+            border-radius: var(--radius) !important;
+            margin-bottom: 12px;
+            box-shadow: var(--shadow);
+            overflow: hidden;
+        }
+
+        .accordion-custom .accordion-header {
+            border-radius: var(--radius) !important;
+        }
+
+        .accordion-custom .accordion-button {
+            font-weight: 600;
+            color: var(--primary);
+            padding: 18px 24px;
+            background: var(--white);
+            border: none;
+            box-shadow: none;
+            border-radius: var(--radius) !important;
+        }
+
+        .accordion-custom .accordion-button:not(.collapsed) {
+            background: var(--white);
+            color: var(--secondary);
+            box-shadow: none;
+        }
+
+        .accordion-custom .accordion-button:focus {
+            box-shadow: none;
+        }
+
+        .accordion-custom .accordion-button::after {
+            background-image: none;
+            content: '\f067';
+            font-family: 'Font Awesome 6 Free';
+            font-weight: 900;
+            font-size: 0.9rem;
+            color: var(--secondary);
+        }
+
+        .accordion-custom .accordion-button:not(.collapsed)::after {
+            content: '\f068';
+            transform: none;
+        }
+
+        .accordion-custom .accordion-body {
+            padding: 0 24px 24px;
+            color: var(--gray);
+            line-height: 1.7;
+        }
+
+        /* ============================================================
+           TESTIMONI
+           ============================================================ */
+        .testimoni-section {
+            background: var(--light-bg);
+        }
+
+        .testimoni-card {
+            background: var(--white);
+            border-radius: var(--radius);
+            padding: 32px 30px;
+            box-shadow: var(--shadow);
+            height: 100%;
+            transition: var(--transition);
+            border: 1px solid rgba(0, 0, 0, 0.03);
+        }
+
+        .testimoni-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-hover);
+        }
+
+        .testimoni-card .stars {
+            color: var(--secondary);
+            font-size: 0.9rem;
+            margin-bottom: 12px;
+        }
+
+        .testimoni-card blockquote {
+            font-style: italic;
+            color: var(--text-dark);
+            line-height: 1.7;
+            font-size: 0.98rem;
+        }
+
+        .testimoni-card .testimoni-author {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            margin-top: 18px;
+            padding-top: 18px;
+            border-top: 1px solid rgba(0, 0, 0, 0.05);
+        }
+
+        .testimoni-card .testimoni-author .avatar {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            background: var(--primary-light);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--white);
+            font-weight: 700;
+            font-size: 1.1rem;
+            flex-shrink: 0;
+        }
+
+        .testimoni-card .testimoni-author .info h6 {
+            font-weight: 700;
+            margin: 0;
+            font-size: 0.95rem;
+            color: var(--primary);
+        }
+
+        .testimoni-card .testimoni-author .info small {
+            color: var(--gray);
+            font-size: 0.8rem;
+        }
+
+        /* ============================================================
+           KONTAK
+           ============================================================ */
+        .contact-section {
+            background: var(--white);
+        }
+
+        .contact-info-card {
+            background: var(--light-bg);
+            border-radius: var(--radius);
+            padding: 28px 30px;
+            transition: var(--transition);
+            border-left: 4px solid var(--secondary);
+            margin-bottom: 16px;
+        }
+
+        .contact-info-card:hover {
+            transform: translateX(6px);
+            box-shadow: var(--shadow);
+        }
+
+        .contact-info-card i {
+            color: var(--secondary);
+            font-size: 1.4rem;
+            width: 44px;
+            height: 44px;
+            background: rgba(244, 123, 32, 0.10);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .contact-info-card .content h6 {
+            font-weight: 700;
+            color: var(--primary);
+            margin: 0;
+            font-size: 0.9rem;
+        }
+
+        .contact-info-card .content p {
+            margin: 0;
+            color: var(--gray);
+            font-size: 0.95rem;
+        }
+
+        .contact-info-card .content a {
+            color: var(--primary);
+            font-weight: 500;
+            transition: var(--transition);
+        }
+
+        .contact-info-card .content a:hover {
+            color: var(--secondary);
+        }
+
+        .contact-form-wrap {
+            background: var(--light-bg);
+            border-radius: var(--radius);
+            padding: 40px;
+            box-shadow: var(--shadow);
+        }
+
+        .contact-form-wrap .form-control {
+            padding: 14px 18px;
+            border-radius: 12px;
+            border: 2px solid #e9edf2;
+            font-size: 0.95rem;
+            transition: var(--transition);
+        }
+
+        .contact-form-wrap .form-control:focus {
+            border-color: var(--secondary);
+            box-shadow: 0 0 0 4px rgba(244, 123, 32, 0.12);
+        }
+
+        .contact-form-wrap .form-label {
+            font-weight: 600;
+            color: var(--primary);
+            font-size: 0.9rem;
+        }
+
+        .map-wrap {
+            border-radius: var(--radius);
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            height: 320px;
+        }
+
+        .map-wrap iframe {
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+
+        /* ============================================================
+           FOOTER
+           ============================================================ */
+        .footer {
+            background: var(--primary-dark);
+            color: rgba(255, 255, 255, 0.7);
+            padding: 60px 0 0;
+        }
+
+        .footer h5 {
+            color: var(--white);
+            font-weight: 700;
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+        }
+
+        .footer a {
+            color: rgba(255, 255, 255, 0.6);
+            transition: var(--transition);
+            display: inline-block;
+            margin-bottom: 8px;
+        }
+
+        .footer a:hover {
+            color: var(--secondary);
+            transform: translateX(4px);
+        }
+
+        .footer .social-links a {
+            width: 40px;
+            height: 40px;
+            background: rgba(255, 255, 255, 0.06);
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 8px;
+            transition: var(--transition);
+            font-size: 1.1rem;
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        .footer .social-links a:hover {
+            background: var(--secondary);
+            color: var(--white);
+            transform: translateY(-3px);
+        }
+
+        .footer .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, 0.06);
+            padding: 20px 0;
+            margin-top: 40px;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+
+        .footer .footer-bottom span {
+            color: var(--secondary);
+        }
+
+        /* ============================================================
+           WHATSAPP FLOATING
+           ============================================================ */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 28px;
+            right: 28px;
+            z-index: 9999;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .whatsapp-float .wa-btn {
+            width: 64px;
+            height: 64px;
+            background: #25d366;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--white);
+            font-size: 2.2rem;
+            box-shadow: 0 8px 32px rgba(37, 211, 102, 0.4);
+            transition: var(--transition);
+            animation: pulse-wa 2.5s infinite;
+            border: none;
+            cursor: pointer;
+        }
+
+        .whatsapp-float .wa-btn:hover {
+            transform: scale(1.08);
+            box-shadow: 0 12px 40px rgba(37, 211, 102, 0.55);
+        }
+
+        .whatsapp-float .wa-label {
+            background: rgba(0, 0, 0, 0.7);
+            backdrop-filter: blur(8px);
+            color: var(--white);
+            padding: 4px 14px;
+            border-radius: 50px;
+            font-size: 0.7rem;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+
+        @keyframes pulse-wa {
+            0%,
+            100% {
+                box-shadow: 0 8px 32px rgba(37, 211, 102, 0.4);
+            }
+            50% {
+                box-shadow: 0 8px 48px rgba(37, 211, 102, 0.65);
+            }
+        }
+
+        /* ============================================================
+           BLOG MODAL
+           ============================================================ */
+        .blog-modal .modal-content {
+            border-radius: var(--radius);
+            border: none;
+            box-shadow: 0 40px 80px rgba(0, 0, 0, 0.25);
+        }
+
+        .blog-modal .modal-header {
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+            padding: 20px 28px;
+        }
+
+        .blog-modal .modal-header .btn-close {
+            background: none;
+            font-size: 1.6rem;
+            opacity: 0.5;
+            transition: var(--transition);
+        }
+
+        .blog-modal .modal-header .btn-close:hover {
+            opacity: 1;
+            transform: rotate(90deg);
+        }
+
+        .blog-modal .modal-body {
+            padding: 28px;
+            max-height: 70vh;
+            overflow-y: auto;
+        }
+
+        .blog-modal .modal-body h2 {
+            font-weight: 800;
+            color: var(--primary);
+            font-size: 1.8rem;
+        }
+
+        .blog-modal .modal-body h3 {
+            font-weight: 700;
+            color: var(--primary);
+            font-size: 1.2rem;
+            margin-top: 1.5rem;
+        }
+
+        .blog-modal .modal-body p {
+            color: var(--gray);
+            line-height: 1.8;
+        }
+
+        .blog-modal .modal-body ul {
+            color: var(--gray);
+            line-height: 1.8;
+            padding-left: 1.2rem;
+        }
+
+        .blog-modal .modal-body ul li {
+            margin-bottom: 4px;
+        }
+
+        .blog-modal .modal-body .blog-meta {
+            font-size: 0.85rem;
+            color: var(--gray);
+            margin-bottom: 16px;
+        }
+
+        .blog-modal .modal-body .blog-meta span {
+            color: var(--secondary);
+            font-weight: 600;
+        }
+
+        /* ============================================================
+           SCROLL TOP
+           ============================================================ */
+        .scroll-top {
+            position: fixed;
+            bottom: 100px;
+            right: 28px;
+            z-index: 9998;
+            width: 44px;
+            height: 44px;
+            background: var(--primary);
+            color: var(--white);
+            border: none;
+            border-radius: 50%;
+            font-size: 1.2rem;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(20px);
+        }
+
+        .scroll-top.visible {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+
+        .scroll-top:hover {
+            background: var(--secondary);
+            transform: translateY(-4px);
+        }
+
+        /* ============================================================
+           RESPONSIVE
+           ============================================================ */
+        @media (max-width: 992px) {
+            .hero h1 {
+                font-size: 2.8rem;
+            }
+            .hero {
+                min-height: auto;
+                padding: 80px 0 60px;
+            }
+            .hero-image .floating-card {
+                margin-top: 2rem;
+            }
+            .section-title {
+                font-size: 2.2rem;
+            }
+            .about-features {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding-top: 66px;
+            }
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+            .hero p {
+                font-size: 1rem;
+            }
+            .hero-stats {
+                gap: 1.5rem;
+            }
+            .hero-stats .stat-item h3 {
+                font-size: 1.6rem;
+            }
+            .section-padding {
+                padding: 60px 0;
+            }
+            .section-title {
+                font-size: 1.8rem;
+            }
+            .contact-form-wrap {
+                padding: 24px;
+            }
+            .navbar-custom .navbar-brand {
+                font-size: 1.3rem;
+            }
+            .whatsapp-float .wa-btn {
+                width: 56px;
+                height: 56px;
+                font-size: 1.8rem;
+            }
+            .footer {
+                padding: 40px 0 0;
+            }
+            .blog-modal .modal-body {
+                padding: 20px;
+                max-height: 60vh;
+            }
+            .blog-modal .modal-body h2 {
+                font-size: 1.4rem;
+            }
+            .about-image-wrap .experience-badge {
+                padding: 12px 18px;
+                font-size: 1rem;
+                bottom: 16px;
+                left: 16px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+            .hero .btn-hero {
+                display: flex;
+                flex-direction: column;
+                gap: 12px;
+            }
+            .hero .btn-hero .btn {
+                width: 100%;
+                text-align: center;
+            }
+            .service-card {
+                padding: 24px 20px;
+            }
+            .contact-info-card {
+                padding: 20px;
+            }
+            .portfolio-item .portfolio-img {
+                height: 200px;
+            }
+            .testimoni-card {
+                padding: 24px 20px;
+            }
+        }
+
+        /* ============================================================
+           UTILITY
+           ============================================================ */
+        .text-secondary-custom {
+            color: var(--secondary);
+        }
+        .bg-secondary-custom {
+            background: var(--secondary);
+        }
+        .border-secondary-custom {
+            border-color: var(--secondary) !important;
+        }
+
+        /* Smooth loading */
+        .aos-init {
+            opacity: 0;
+        }
+        .aos-animate {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar navbar-expand-lg navbar-custom fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                WIKISA<span>Advertising</span>
+                <small>Workshop &amp; Branding</small>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars" style="font-size:1.4rem;color:var(--primary);"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-lg-center">
+                    <li class="nav-item"><a class="nav-link active" href="#home"><i class="fas fa-home"></i>Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tentang"><i class="fas fa-info-circle"></i>Tentang</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#layanan"><i class="fas fa-cogs"></i>Layanan</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#produk"><i class="fas fa-box"></i>Produk</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio"><i class="fas fa-images"></i>Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#blog"><i class="fas fa-newspaper"></i>Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#faq"><i class="fas fa-question-circle"></i>FAQ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimoni"><i class="fas fa-star"></i>Testimoni</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#kontak"><i class="fas fa-envelope"></i>Kontak</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 hero-content" data-aos="fade-right" data-aos-duration="800">
+                    <span class="badge-orange">#1 Workshop Signage & Branding</span>
+                    <h1>Solusi Branding <br /><span>Profesional</span> untuk Bisnis Anda</h1>
+                    <p>Neon Box, Huruf Timbul, Cutting Sticker, Signage, Billboard, Branding Toko &amp; Kantor berkualitas tinggi di Jakarta, Tangerang, BSD, dan seluruh Jabodetabek.</p>
+                    <div class="d-flex flex-wrap gap-3 btn-hero">
+                        <a href="#layanan" class="btn btn-primary-custom"><i class="fas fa-rocket me-2"></i>Lihat Layanan</a>
+                        <a href="#kontak" class="btn btn-outline-custom" style="border-color:rgba(255,255,255,0.3);color:var(--white);"><i class="fas fa-phone me-2"></i>Hubungi Kami</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <h3>12+</h3>
+                            <p>Tahun Pengalaman</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>500+</h3>
+                            <p>Proyek Selesai</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>200+</h3>
+                            <p>Klien Puas</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 hero-image" data-aos="fade-left" data-aos-duration="800" data-aos-delay="200">
+                    <div class="floating-card">
+                        <i class="fas fa-lightbulb"></i>
+                        <h4>Neon Box &amp; Signage</h4>
+                        <p>Kami menghadirkan solusi pencahayaan dan branding terbaik untuk toko, kantor, dan ruang publik Anda.</p>
+                        <div style="display:flex;gap:12px;margin-top:16px;flex-wrap:wrap;">
+                            <span style="background:rgba(255,255,255,0.08);padding:4px 14px;border-radius:50px;font-size:0.75rem;">LED Terbaik</span>
+                            <span style="background:rgba(255,255,255,0.08);padding:4px 14px;border-radius:50px;font-size:0.75rem;">Garansi 1 Tahun</span>
+                            <span style="background:rgba(255,255,255,0.08);padding:4px 14px;border-radius:50px;font-size:0.75rem;">Harga Kompetitif</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== TENTANG KAMI ===== -->
+    <section id="tentang" class="about-section section-padding">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6" data-aos="fade-right" data-aos-duration="800">
+                    <div class="about-image-wrap">
+                        <div class="about-placeholder"><i class="fas fa-building"></i></div>
+                        <div class="experience-badge">
+                            12+ Tahun
+                            <small>Pengalaman di Industri</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 about-content" data-aos="fade-left" data-aos-duration="800" data-aos-delay="150">
+                    <span class="badge-orange">Tentang Kami</span>
+                    <h2>Workshop <span>WIKISA Advertising</span></h2>
+                    <p>WIKISA Advertising adalah workshop spesialis di bidang signage, neon box, huruf timbul, dan branding profesional. Berdiri sejak 2014, kami telah melayani ratusan klien dari berbagai sektor, mulai dari UMKM, ritel, perkantoran, hingga korporasi besar di Jabodetabek.</p>
+                    <p>Kami mengutamakan kualitas material, ketepatan waktu, dan kepuasan pelanggan. Setiap produk kami rancang dengan presisi tinggi menggunakan teknologi CNC Router, Laser Cutting, dan Digital Printing terbaru.</p>
+                    <div class="about-features">
+                        <div class="feature-item"><i class="fas fa-check-circle"></i> Material Premium</div>
+                        <div class="feature-item"><i class="fas fa-check-circle"></i> Garansi Kualitas</div>
+                        <div class="feature-item"><i class="fas fa-check-circle"></i> Pengerjaan Cepat</div>
+                        <div class="feature-item"><i class="fas fa-check-circle"></i> Harga Transparan</div>
+                        <div class="feature-item"><i class="fas fa-check-circle"></i> Tim Profesional</div>
+                        <div class="feature-item"><i class="fas fa-check-circle"></i> Konsultasi Gratis</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== LAYANAN ===== -->
+    <section id="layanan" class="services-section section-padding">
+        <div class="container">
+            <div class="text-center" data-aos="fade-up" data-aos-duration="600">
+                <span class="badge-orange">Layanan Kami</span>
+                <h2 class="section-title">Solusi <span>Branding</span> Lengkap</h2>
+                <p class="section-subtitle">Kami menyediakan berbagai layanan signage dan branding untuk memenuhi kebutuhan bisnis Anda di Jabodetabek.</p>
+            </div>
+            <div class="row g-4">
+                <!-- 14 Layanan -->
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="500" data-aos-delay="0">
+                    <div class="service-card">
+                        <div class="icon-wrap"><i class="fas fa-lightbulb"></i></div>
+                        <h5>Neon Box</h5>
+                        <p>Papan nama bercahaya dengan lampu LED hemat energi, tahan cuaca, dan tampilan menarik untuk toko & kantor.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="500" data-aos-delay="50">
+                    <div class="service-card">
+                        <div class="icon-wrap"><i class="fas fa-font"></i></div>
+                        <h5>Huruf Timbul</h5>
+                        <p>Huruf 3D dari akrilik, stainless, atau kuningan dengan efek timbul yang elegan dan profesional.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">
+                    <div class="service-card">
+                        <div class="icon-wrap"><i class="fas fa-cut"></i></div>
+                        <h5>Cutting Sticker</h5>
+                        <p>Stiker custom berbagai bentuk dan ukuran untuk branding kendaraan, kaca, dinding, dan merchandise.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="500" data-aos-delay="150">
+                    <div class="service-card">
+                        <div class="icon-wrap"><i class="fas fa-sign"></i></div>
+                        <h5>Signage</h5>
+                        <p>Papan penunjuk arah, papan nama gedung, dan signage interior/eksterior dengan desain modern.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
+                    <div class="service-card">
+                        <div class="icon-wrap"><i class="fas fa-arrow-up"></i></div>
+                        <h5>Stretch Ceiling</h5>
+                        <p>Plafon peregangan dengan efek cahaya LED, menciptakan suasana ruang yang elegan dan mewah.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="500" data-aos-delay="250">
+                    <div class="service-card">
+                        <div class="icon-wrap"><i class="fas fa-tower-broadcast"></i></div>
+                        <h5>Pylon Sign</h5>
+                        <p>Papan nama bertiang tinggi untuk landmark bisnis Anda, terlihat dari jarak jauh dan tahan lama.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300">
+                    <div class="service-card">
+                        <div class="icon-wrap"><i class="fas fa-chart-simple"></i></div>
+                        <h5>Billboard</h5>
+                        <p>Papan reklame ukuran besar untuk iklan outdoor dengan daya tarik visual maksimal.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="500" data-aos-delay="350">
+                    <div class="service-card">
+                        <div class="icon-wrap"><i class="fas fa-layer-group"></i></div>
+                        <h5>ACP Cladding</h5>
+                        <p>Pelapis dinding eksterior dengan panel aluminium komposit yang modern, ringan, dan tahan cuaca.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="500" data-aos-delay="400">
+                    <div class="service-card">
+                        <div class="icon-wrap"><i class="fas fa-store"></i></div>
+                        <h5>Branding Toko</h5>
+                        <p>Solusi branding lengkap untuk toko ritel, mulai dari signage, neon box, hingga dekorasi interior.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="500" data-aos-delay="450">
+                    <div class="service-card">
+                        <div class="icon-wrap"><i class="fas fa-building"></i></div>
+                        <h5>Branding Kantor</h5>
+                        <p>Branding profesional untuk ruang kantor, lobby, ruang rapat, dan area korporasi.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="500" data-aos-delay="500">
+                    <div class="service-card">
+                        <div class="icon-wrap"><i class="fas fa-print"></i></div>
+                        <h5>Digital Printing</h5>
+                        <p>Cetak digital berkualitas tinggi untuk banner, spanduk, poster, backdrop, dan media promosi lainnya.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="500" data-aos-delay="550">
+                    <div class="service-card">
+                        <div class="icon-wrap"><i class="fas fa-bolt"></i></div>
+                        <h5>Laser Cutting</h5>
+                        <p>Pemotongan material akrilik, kayu, dan logam dengan presisi tinggi menggunakan teknologi laser.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="500" data-aos-delay="600">
+                    <div class="service-card">
+                        <div class="icon-wrap"><i class="fas fa-microchip"></i></div>
+                        <h5>CNC Router</h5>
+                        <p>Pemotongan dan ukiran material kayu, MDF, akrilik, dan aluminium dengan mesin CNC Router 3D.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="500" data-aos-delay="650">
+                    <div class="service-card">
+                        <div class="icon-wrap"><i class="fas fa-pen-ruler"></i></div>
+                        <h5>Konsultasi Branding</h5>
+                        <p>Kami membantu merancang konsep branding yang tepat untuk bisnis Anda, mulai dari desain hingga eksekusi.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PRODUK ===== -->
+    <section id="produk" class="products-section section-padding">
+        <div class="container">
+            <div class="text-center" data-aos="fade-up" data-aos-duration="600">
+                <span class="badge-orange">Produk Unggulan</span>
+                <h2 class="section-title">Produk <span>Kami</span></h2>
+                <p class="section-subtitle">Berbagai produk signage dan branding dengan material terbaik dan kualitas terjamin.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="500" data-aos-delay="0">
+                    <div class="product-card">
+                        <div class="product-img"><i class="fas fa-lightbulb"></i><span class="product-tag">Best Seller</span></div>
+                        <div class="product-body">
+                            <h5>Neon Box LED</h5>
+                            <p>Papan nama dengan lampu LED super terang, tahan air, dan hemat listrik. Tersedia berbagai ukuran dan warna.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">
+                    <div class="product-card">
+                        <div class="product-img"><i class="fas fa-font"></i><span class="product-tag">Premium</span></div>
+                        <div class="product-body">
+                            <h5>Huruf Timbul 3D</h5>
+                            <p>Huruf timbul dari akrilik, stainless, atau kuningan dengan finishing elegan untuk tampilan korporat.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
+                    <div class="product-card">
+                        <div class="product-img"><i class="fas fa-cut"></i><span class="product-tag">Populer</span></div>
+                        <div class="product-body">
+                            <h5>Cutting Sticker</h5>
+                            <p>Stiker custom berbagai bentuk untuk branding kendaraan, kaca toko, dan kebutuhan promosi.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300">
+                    <div class="product-card">
+                        <div class="product-img"><i class="fas fa-sign"></i><span class="product-tag">Baru</span></div>
+                        <div class="product-body">
+                            <h5>Signage Digital</h5>
+                            <p>Papan penunjuk digital dengan layar LED untuk informasi dan branding dinamis.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PORTFOLIO ===== -->
+    <section id="portfolio" class="portfolio-section section-padding">
+        <div class="container">
+            <div class="text-center" data-aos="fade-up" data-aos-duration="600">
+                <span class="badge-orange">Portfolio</span>
+                <h2 class="section-title">Proyek <span>Kami</span></h2>
+                <p class="section-subtitle">Beberapa proyek signage dan branding yang telah kami selesaikan untuk klien di Jabodetabek.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="500" data-aos-delay="0">
+                    <div class="portfolio-item">
+                        <div class="portfolio-img"><i class="fas fa-store"></i></div>
+                        <div class="portfolio-overlay">
+                            <h5>Neon Box Toko Ritel</h5>
+                            <p>Jakarta Barat</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">
+                    <div class="portfolio-item">
+                        <div class="portfolio-img"><i class="fas fa-building"></i></div>
+                        <div class="portfolio-overlay">
+                            <h5>Branding Kantor</h5>
+                            <p>Tangerang</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
+                    <div class="portfolio-item">
+                        <div class="portfolio-img"><i class="fas fa-tower-broadcast"></i></div>
+                        <div class="portfolio-overlay">
+                            <h5>Pylon Sign</h5>
+                            <p>BSD City</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300">
+                    <div class="portfolio-item">
+                        <div class="portfolio-img"><i class="fas fa-chart-simple"></i></div>
+                        <div class="portfolio-overlay">
+                            <h5>Billboard Outdoor</h5>
+                            <p>Karawaci</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="500" data-aos-delay="400">
+                    <div class="portfolio-item">
+                        <div class="portfolio-img"><i class="fas fa-layer-group"></i></div>
+                        <div class="portfolio-overlay">
+                            <h5>ACP Cladding</h5>
+                            <p>Gading Serpong</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="500" data-aos-delay="500">
+                    <div class="portfolio-item">
+                        <div class="portfolio-img"><i class="fas fa-font"></i></div>
+                        <div class="portfolio-overlay">
+                            <h5>Huruf Timbul 3D</h5>
+                            <p>Alam Sutera</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="500" data-aos-delay="600">
+                    <div class="portfolio-item">
+                        <div class="portfolio-img"><i class="fas fa-print"></i></div>
+                        <div class="portfolio-overlay">
+                            <h5>Digital Printing</h5>
+                            <p>Bintaro</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="500" data-aos-delay="700">
+                    <div class="portfolio-item">
+                        <div class="portfolio-img"><i class="fas fa-microchip"></i></div>
+                        <div class="portfolio-overlay">
+                            <h5>CNC Router</h5>
+                            <p>Bekasi</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== BLOG ===== -->
+    <section id="blog" class="blog-section section-padding">
+        <div class="container">
+            <div class="text-center" data-aos="fade-up" data-aos-duration="600">
+                <span class="badge-orange">Blog & Artikel</span>
+                <h2 class="section-title">Informasi & <span>Tips</span></h2>
+                <p class="section-subtitle">Artikel profesional seputar signage, neon box, branding, dan tips memilih produk terbaik untuk bisnis Anda.</p>
+            </div>
+            <div class="row g-4" id="blogContainer"></div>
+        </div>
+    </section>
+
+    <!-- ===== FAQ ===== -->
+    <section id="faq" class="faq-section section-padding">
+        <div class="container">
+            <div class="text-center" data-aos="fade-up" data-aos-duration="600">
+                <span class="badge-orange">FAQ</span>
+                <h2 class="section-title">Pertanyaan <span>Frequently</span></h2>
+                <p class="section-subtitle">Jawaban atas pertanyaan yang sering diajukan tentang layanan dan produk kami.</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+                    <div class="accordion accordion-custom" id="faqAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                    Apa saja layanan utama WIKISA Advertising?
+                                </button>
+                            </h2>
+                            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Kami menyediakan layanan Neon Box, Huruf Timbul, Cutting Sticker, Signage, Stretch Ceiling, Pylon Sign, Billboard, ACP Cladding, Branding Toko & Kantor, Digital Printing, Laser Cutting, dan CNC Router.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                    Apakah WIKISA Advertising melayani seluruh Jabodetabek?
+                                </button>
+                            </h2>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Ya, kami melayani Jakarta Barat, Tangerang, Tangerang Selatan, BSD, Gading Serpong, Alam Sutera, Karawaci, Cikupa, Bintaro, Bekasi, Depok, Bogor, dan seluruh wilayah Jabodetabek.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                    Berapa estimasi waktu pengerjaan?
+                                </button>
+                            </h2>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Waktu pengerjaan bervariasi tergantung jenis dan kompleksitas produk. Rata-rata 3-7 hari kerja untuk Neon Box dan Huruf Timbul, 1-3 hari untuk Cutting Sticker dan Digital Printing.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                                    Apakah ada garansi untuk produk?
+                                </button>
+                            </h2>
+                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Ya, semua produk kami dilengkapi garansi 1 tahun untuk kerusakan material dan pengerjaan. Untuk komponen elektronik seperti LED, garansi 6 bulan.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                                    Bagaimana cara memesan?
+                                </button>
+                            </h2>
+                            <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Anda dapat menghubungi tim marketing kami melalui WhatsApp di 0858-8231-4913, 0821-2199-866, atau 0857-1989-4197. Kami akan membantu konsultasi, desain, dan proses pemesanan.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== TESTIMONI ===== -->
+    <section id="testimoni" class="testimoni-section section-padding">
+        <div class="container">
+            <div class="text-center" data-aos="fade-up" data-aos-duration="600">
+                <span class="badge-orange">Testimoni</span>
+                <h2 class="section-title">Apa Kata <span>Klien Kami</span></h2>
+                <p class="section-subtitle">Pengalaman klien yang telah menggunakan jasa WIKISA Advertising untuk kebutuhan branding mereka.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4" data-aos="fade-up" data-aos-duration="500" data-aos-delay="0">
+                    <div class="testimoni-card">
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <blockquote>"Neon box dari WIKISA sangat berkualitas, lampu LED terang dan tahan lama. Pemasangan cepat dan rapi. Sangat direkomendasikan!"</blockquote>
+                        <div class="testimoni-author">
+                            <div class="avatar">A</div>
+                            <div class="info">
+                                <h6>Andi Pratama</h6>
+                                <small>Pemilik Toko Retail, Jakarta Barat</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">
+                    <div class="testimoni-card">
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <blockquote>"Tim WIKISA profesional dan responsif. Branding kantor kami selesai tepat waktu dengan hasil yang memuaskan. Harga kompetitif."</blockquote>
+                        <div class="testimoni-author">
+                            <div class="avatar">S</div>
+                            <div class="info">
+                                <h6>Siti Rahayu</h6>
+                                <small>HRD Perusahaan, Tangerang</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
+                    <div class="testimoni-card">
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <blockquote>"Pylon sign untuk gerai kami dibuat dengan kokoh dan desain yang modern. Komunikasi dengan tim WIKISA sangat lancar."</blockquote>
+                        <div class="testimoni-author">
+                            <div class="avatar">B</div>
+                            <div class="info">
+                                <h6>Budi Santoso</h6>
+                                <small>Owner F&B, BSD City</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== KONTAK ===== -->
+    <section id="kontak" class="contact-section section-padding">
+        <div class="container">
+            <div class="text-center" data-aos="fade-up" data-aos-duration="600">
+                <span class="badge-orange">Hubungi Kami</span>
+                <h2 class="section-title">Kontak <span>WIKISA Advertising</span></h2>
+                <p class="section-subtitle">Siap membantu kebutuhan branding dan signage Anda. Konsultasi gratis dan penawaran terbaik.</p>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-5" data-aos="fade-right" data-aos-duration="800">
+                    <div class="contact-info-card">
+                        <div class="d-flex align-items-center gap-3">
+                            <i class="fas fa-user"></i>
+                            <div class="content">
+                                <h6>Nama Kontak</h6>
+                                <p><strong>Agerra Wikisa Adss</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-info-card">
+                        <div class="d-flex align-items-center gap-3">
+                            <i class="fab fa-whatsapp"></i>
+                            <div class="content">
+                                <h6>Marketing 1 (WhatsApp)</h6>
+                                <p><a href="https://wa.me/6285882314913" target="_blank">0858-8231-4913</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-info-card">
+                        <div class="d-flex align-items-center gap-3">
+                            <i class="fab fa-whatsapp"></i>
+                            <div class="content">
+                                <h6>Marketing 2 (WhatsApp)</h6>
+                                <p><a href="https://wa.me/628212199866" target="_blank">0821-2199-866</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-info-card">
+                        <div class="d-flex align-items-center gap-3">
+                            <i class="fab fa-whatsapp"></i>
+                            <div class="content">
+                                <h6>Marketing 3 (WhatsApp)</h6>
+                                <p><a href="https://wa.me/6285719894197" target="_blank">0857-1989-4197</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-info-card">
+                        <div class="d-flex align-items-center gap-3">
+                            <i class="fas fa-envelope"></i>
+                            <div class="content">
+                                <h6>Email</h6>
+                                <p><a href="mailto:wikisaads08@gmail.com">wikisaads08@gmail.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-info-card">
+                        <div class="d-flex align-items-center gap-3">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="content">
+                                <h6>Alamat</h6>
+                                <p>Jakarta Barat, DKI Jakarta</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7" data-aos="fade-left" data-aos-duration="800" data-aos-delay="100">
+                    <div class="contact-form-wrap">
+                        <h5 style="font-weight:700;color:var(--primary);margin-bottom:1.5rem;"><i class="fas fa-paper-plane me-2" style="color:var(--secondary);"></i>Kirim Pesan</h5>
+                        <form id="contactForm">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label class="form-label">Nama Lengkap</label>
+                                    <input type="text" class="form-control" placeholder="Nama Anda" required />
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label">Email</label>
+                                    <input type="email" class="form-control" placeholder="email@anda.com" required />
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label">No. Telepon</label>
+                                    <input type="tel" class="form-control" placeholder="0812-3456-7890" />
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label">Pesan</label>
+                                    <textarea class="form-control" rows="4" placeholder="Tulis pesan Anda..." required></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary-custom w-100"><i class="fas fa-paper-plane me-2"></i>Kirim Pesan</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="map-wrap mt-4">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253840.5174982687!2d106.6646121390625!3d-6.229728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e945e34b9d%3A0x5371bf0fdad786a2!2sJakarta!5e0!3m2!1sid!2sid!4v1700000000000" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <h5>WIKISA<span style="color:var(--secondary);">Advertising</span></h5>
+                    <p style="font-size:0.95rem;line-height:1.7;">Solusi branding, signage, dan neon box profesional untuk bisnis Anda di Jakarta, Tangerang, BSD, dan seluruh Jabodetabek.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-6">
+                    <h5>Layanan</h5>
+                    <a href="#layanan">Neon Box</a><br />
+                    <a href="#layanan">Huruf Timbul</a><br />
+                    <a href="#layanan">Signage</a><br />
+                    <a href="#layanan">Billboard</a><br />
+                    <a href="#layanan">Branding Toko</a>
+                </div>
+                <div class="col-lg-2 col-md-3 col-6">
+                    <h5>Area</h5>
+                    <a href="#">Jakarta Barat</a><br />
+                    <a href="#">Tangerang</a><br />
+                    <a href="#">BSD City</a><br />
+                    <a href="#">Gading Serpong</a><br />
+                    <a href="#">Alam Sutera</a>
+                </div>
+                <div class="col-lg-2 col-md-3 col-6">
+                    <h5>Informasi</h5>
+                    <a href="#tentang">Tentang Kami</a><br />
+                    <a href="#blog">Blog</a><br />
+                    <a href="#faq">FAQ</a><br />
+                    <a href="#testimoni">Testimoni</a><br />
+                    <a href="#kontak">Kontak</a>
+                </div>
+                <div class="col-lg-2 col-md-3 col-6">
+                    <h5>Kontak</h5>
+                    <a href="https://wa.me/6285882314913"><i class="fab fa-whatsapp me-1"></i> 0858-8231-4913</a><br />
+                    <a href="https://wa.me/628212199866"><i class="fab fa-whatsapp me-1"></i> 0821-2199-866</a><br />
+                    <a href="mailto:wikisaads08@gmail.com"><i class="fas fa-envelope me-1"></i> Email</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2026 <span>WIKISA Advertising</span>. All Rights Reserved. Dibangun dengan <i class="fas fa-heart" style="color:var(--secondary);"></i> untuk bisnis Anda.
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== WHATSAPP FLOATING ===== -->
+    <div class="whatsapp-float">
+        <a href="https://wa.me/6285882314913" target="_blank" class="wa-btn" aria-label="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <span class="wa-label">Hubungi Kami</span>
+    </div>
+
+    <!-- ===== SCROLL TOP ===== -->
+    <button class="scroll-top" id="scrollTopBtn" aria-label="Scroll to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- ===== BLOG MODAL ===== -->
+    <div class="modal fade blog-modal" id="blogModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" style="font-weight:700;color:var(--primary);" id="blogModalTitle">Judul Artikel</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i></button>
+                </div>
+                <div class="modal-body" id="blogModalBody">
+                    <!-- Isi artikel akan diisi oleh JavaScript -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== SCRIPTS ===== -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js">
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+    </script>
+    <script>
+        // ============================================================
+        // 1. AOS INIT
+        // ============================================================
+        AOS.init({
+            duration: 800,
+            once: true,
+            offset: 60,
+        });
+
+        // ============================================================
+        // 2. DATA BLOG (24 artikel - disini saya tampilkan 15 contoh,
+        //    Anda bisa tambahkan sisanya sendiri dengan pola yang sama)
+        // ============================================================
+        const blogData = [{
+            id: 1,
+            tag: 'Neon Box',
+            title: 'Neon Box: Pengertian, Fungsi, dan Keunggulan untuk Branding',
+            excerpt: 'Neon box adalah papan nama bercahaya yang menjadi solusi branding efektif untuk toko dan kantor. Pelajari fungsi, keunggulan, dan tips memilihnya.',
+            content: `
+            <h2>Pengertian Neon Box</h2>
+            <p>Neon box adalah papan nama atau media branding yang dilengkapi dengan lampu LED di dalamnya, sehingga menciptakan efek bercahaya yang menarik perhatian.</p>
+            <h3>Fungsi Neon Box</h3>
+            <ul>
+              <li><strong>Media Branding Efektif:</strong> Membantu bisnis Anda terlihat dan dikenali.</li>
+              <li><strong>Meningkatkan Visibilitas:</strong> Cahaya LED terang membuat papan nama terlihat dari jarak jauh.</li>
+            </ul>
+            <h3>Keunggulan Neon Box</h3>
+            <ul>
+              <li><strong>Hemat Energi:</strong> Konsumsi daya rendah.</li>
+              <li><strong>Tahan Lama:</strong> Umur pakai hingga 50.000 jam.</li>
+              <li><strong>Cahaya Merata:</strong> Teknologi LED menghasilkan cahaya merata.</li>
+              <li><strong>Tahan Cuaca:</strong> Cocok untuk outdoor.</li>
+            </ul>
+            <p class="mt-3"><strong>WIKISA Advertising</strong> siap membantu Anda.</p>
+            `
+        }, {
+            id: 2,
+            tag: 'Huruf Timbul',
+            title: 'Huruf Timbul 3D: Solusi Branding Elegan untuk Kantor & Toko',
+            excerpt: 'Huruf timbul 3D memberikan kesan premium dan profesional. Pelajari jenis, material, dan tips memilih huruf timbul terbaik.',
+            content: `
+            <h2>Pengertian Huruf Timbul</h2>
+            <p>Huruf timbul adalah elemen branding berbentuk huruf atau logo yang dibuat timbul (menonjol) dari permukaan media.</p>
+            <h3>Jenis-Jenis Huruf Timbul</h3>
+            <ul>
+              <li>Akrilik</li>
+              <li>Stainless Steel</li>
+              <li>Kuningan</li>
+              <li>LED Backlit</li>
+            </ul>
+            <h3>Tips Memilih</h3>
+            <ul>
+              <li>Sesuaikan dengan budget dan lokasi.</li>
+              <li>Pilih material tahan cuaca untuk outdoor.</li>
+            </ul>
+            <p class="mt-3"><strong>WIKISA Advertising</strong> menyediakan huruf timbul berkualitas.</p>
+            `
+        }, {
+            id: 3,
+            tag: 'Cutting Sticker',
+            title: 'Cutting Sticker: Solusi Branding Fleksibel untuk Bisnis Anda',
+            excerpt: 'Cutting sticker adalah pilihan praktis dan ekonomis untuk branding. Pelajari jenis, material, dan tips memilihnya.',
+            content: `
+            <h2>Pengertian Cutting Sticker</h2>
+            <p>Stiker yang dipotong sesuai bentuk desain menggunakan mesin plotter.</p>
+            <h3>Jenis-Jenis</h3>
+            <ul>
+              <li>Vinyl</li>
+              <li>Chrome</li>
+              <li>Reflective</li>
+            </ul>
+            <h3>Tips Memilih</h3>
+            <ul>
+              <li>Sesuaikan dengan media aplikasi.</li>
+              <li>Pilih vinyl berkualitas untuk daya tahan.</li>
+            </ul>
+            <p class="mt-3"><strong>WIKISA Advertising</strong> siap memenuhi kebutuhan cutting sticker Anda.</p>
+            `
+        }, {
+            id: 4,
+            tag: 'Signage',
+            title: 'Signage: Panduan Lengkap Memilih Papan Penunjuk untuk Bisnis',
+            excerpt: 'Signage adalah elemen penting untuk navigasi dan branding. Pelajari jenis, material, dan tips memilih signage yang efektif.',
+            content: `
+            <h2>Pengertian Signage</h2>
+            <p>Papan penunjuk arah, identitas, atau informasi.</p>
+            <h3>Jenis-Jenis</h3>
+            <ul>
+              <li>Directional</li>
+              <li>Identification</li>
+              <li>Digital</li>
+            </ul>
+            <h3>Material</h3>
+            <ul>
+              <li>Akrilik</li>
+              <li>Aluminium</li>
+              <li>Kayu</li>
+            </ul>
+            <p class="mt-3"><strong>WIKISA Advertising</strong> menyediakan signage berkualitas.</p>
+            `
+        }, {
+            id: 5,
+            tag: 'Stretch Ceiling',
+            title: 'Stretch Ceiling: Plafon Modern dengan Efek Cahaya Mewah',
+            excerpt: 'Stretch ceiling adalah plafon peregangan dengan efek cahaya LED yang menciptakan suasana ruang elegan.',
+            content: `
+            <h2>Pengertian Stretch Ceiling</h2>
+            <p>Plafon peregangan dari PVC atau kain yang dipasang pada rangka.</p>
+            <h3>Keunggulan</h3>
+            <ul>
+              <li>Permukaan mulus</li>
+              <li>Efek cahaya LED</li>
+              <li>Tahan lama</li>
+            </ul>
+            <h3>Proses Pemasangan</h3>
+            <ol>
+              <li>Pengukuran</li>
+              <li>Pemasangan rangka</li>
+              <li>Pemasangan material</li>
+              <li>Pemasangan LED</li>
+            </ol>
+            <p class="mt-3"><strong>WIKISA Advertising</strong> ahli dalam pemasangan stretch ceiling.</p>
+            `
+        }, {
+            id: 6,
+            tag: 'Pylon Sign',
+            title: 'Pylon Sign: Landmark Bisnis yang Menarik Perhatian',
+            excerpt: 'Pylon sign adalah papan nama bertiang tinggi yang menjadi landmark untuk bisnis Anda.',
+            content: `
+            <h2>Pengertian Pylon Sign</h2>
+            <p>Papan nama bertiang tinggi di pinggir jalan atau area strategis.</p>
+            <h3>Jenis</h3>
+            <ul>
+              <li>Single Face</li>
+              <li>Double Face</li>
+              <li>Dengan LED</li>
+            </ul>
+            <h3>Material</h3>
+            <ul>
+              <li>Baja</li>
+              <li>Akrilik</li>
+              <li>ACP</li>
+            </ul>
+            <p class="mt-3"><strong>WIKISA Advertising</strong> membuat pylon sign kokoh dan menarik.</p>
+            `
+        }, {
+            id: 7,
+            tag: 'Billboard',
+            title: 'Billboard: Media Iklan Outdoor dengan Daya Jangkau Massal',
+            excerpt: 'Billboard adalah media iklan outdoor yang efektif untuk menjangkau audiens luas.',
+            content: `
+            <h2>Pengertian Billboard</h2>
+            <p>Papan reklame besar untuk iklan outdoor.</p>
+            <h3>Jenis</h3>
+            <ul>
+              <li>Static</li>
+              <li>Digital</li>
+              <li>Rotating</li>
+            </ul>
+            <h3>Tips Memilih</h3>
+            <ul>
+              <li>Lokasi strategis</li>
+              <li>Desain menarik</li>
+            </ul>
+            <p class="mt-3"><strong>WIKISA Advertising</strong> menyediakan billboard berkualitas.</p>
+            `
+        }, {
+            id: 8,
+            tag: 'ACP Cladding',
+            title: 'ACP Cladding: Pelapis Dinding Modern untuk Eksterior Bangunan',
+            excerpt: 'ACP cladding adalah pelapis dinding eksterior yang modern, ringan, dan tahan cuaca.',
+            content: `
+            <h2>Pengertian ACP Cladding</h2>
+            <p>Panel aluminium komposit untuk pelapis dinding eksterior.</p>
+            <h3>Keunggulan</h3>
+            <ul>
+              <li>Ringan</li>
+              <li>Tahan lama</li>
+              <li>Perawatan mudah</li>
+            </ul>
+            <h3>Proses Pemasangan</h3>
+            <ol>
+              <li>Pengukuran</li>
+              <li>Pembuatan rangka</li>
+              <li>Pemasangan panel</li>
+            </ol>
+            <p class="mt-3"><strong>WIKISA Advertising</strong> ahli dalam ACP cladding.</p>
+            `
+        }, {
+            id: 9,
+            tag: 'Branding Toko',
+            title: 'Branding Toko: Kunci Sukses Bisnis Ritel di Era Modern',
+            excerpt: 'Branding toko yang kuat membantu menarik pelanggan dan membangun loyalitas.',
+            content: `
+            <h2>Pengertian Branding Toko</h2>
+            <p>Membangun identitas visual dan pengalaman pelanggan yang konsisten untuk bisnis ritel.</p>
+            <h3>Elemen</h3>
+            <ul>
+              <li>Signage & Neon Box</li>
+              <li>Interior Design</li>
+              <li>Window Display</li>
+            </ul>
+            <h3>Tips</h3>
+            <ul>
+              <li>Kenali target pasar</li>
+              <li>Konsisten</li>
+              <li>Investasi pada signage</li>
+            </ul>
+            <p class="mt-3"><strong>WIKISA Advertising</strong> siap membantu branding toko Anda.</p>
+            `
+        }, {
+            id: 10,
+            tag: 'Branding Kantor',
+            title: 'Branding Kantor: Meningkatkan Citra Profesional Perusahaan',
+            excerpt: 'Branding kantor mencerminkan identitas dan nilai perusahaan.',
+            content: `
+            <h2>Pengertian Branding Kantor</h2>
+            <p>Membangun identitas visual dan pengalaman di lingkungan perkantoran.</p>
+            <h3>Elemen</h3>
+            <ul>
+              <li>Huruf Timbul 3D</li>
+              <li>Signage & Wayfinding</li>
+              <li>Dinding Branding</li>
+            </ul>
+            <h3>Tips</h3>
+            <ul>
+              <li>Sesuaikan dengan budaya perusahaan</li>
+              <li>Gunakan material premium</li>
+            </ul>
+            <p class="mt-3"><strong>WIKISA Advertising</strong> siap membantu branding kantor Anda.</p>
+            `
+        }, {
+            id: 11,
+            tag: 'Digital Printing',
+            title: 'Digital Printing: Solusi Cetak Cepat untuk Kebutuhan Promosi',
+            excerpt: 'Digital printing adalah solusi cetak cepat dengan hasil berkualitas tinggi.',
+            content: `
+            <h2>Pengertian Digital Printing</h2>
+            <p>Proses pencetakan langsung dari file digital ke media cetak.</p>
+            <h3>Jenis</h3>
+            <ul>
+              <li>Offset Digital</li>
+              <li>Wide Format</li>
+              <li>UV Printing</li>
+            </ul>
+            <h3>Tips</h3>
+            <ul>
+              <li>Pilih jasa terpercaya</li>
+              <li>Perhatikan kualitas</li>
+            </ul>
+            <p class="mt-3"><strong>WIKISA Advertising</strong> menyediakan layanan digital printing.</p>
+            `
+        }, {
+            id: 12,
+            tag: 'Laser Cutting',
+            title: 'Laser Cutting: Teknologi Presisi untuk Material Akrilik & Logam',
+            excerpt: 'Laser cutting adalah teknologi pemotongan presisi tinggi untuk berbagai material.',
+            content: `
+            <h2>Pengertian Laser Cutting</h2>
+            <p>Pemotongan material menggunakan sinar laser dengan presisi tinggi.</p>
+            <h3>Material</h3>
+            <ul>
+              <li>Akrilik</li>
+              <li>Kayu & MDF</li>
+              <li>Logam tipis</li>
+            </ul>
+            <h3>Tips</h3>
+            <ul>
+              <li>Perhatikan kapasitas mesin</li>
+              <li>Kualitas hasil</li>
+            </ul>
+            <p class="mt-3"><strong>WIKISA Advertising</strong> ahli dalam laser cutting.</p>
+            `
+        }, {
+            id: 13,
+            tag: 'CNC Router',
+            title: 'CNC Router: Solusi Pemotongan & Ukiran 3D untuk Berbagai Material',
+            excerpt: 'CNC router adalah mesin pemotongan 3D presisi tinggi untuk kayu, MDF, akrilik, dan aluminium.',
+            content: `
+            <h2>Pengertian CNC Router</h2>
+            <p>Mesin pemotongan dan ukiran yang dikendalikan oleh komputer untuk hasil 3D presisi.</p>
+            <h3>Material</h3>
+            <ul>
+              <li>Kayu & MDF</li>
+              <li>Akrilik</li>
+              <li>Aluminium</li>
+            </ul>
+            <h3>Tips</h3>
+            <ul>
+              <li>Kapasitas mesin</li>
+              <li>Keahlian operator</li>
+            </ul>
+            <p class="mt-3"><strong>WIKISA Advertising</strong> menyediakan jasa CNC router.</p>
+            `
+        }, {
+            id: 14,
+            tag: 'Neon Box',
+            title: 'Neon Box LED vs Neon Konvensional: Mana yang Lebih Baik?',
+            excerpt: 'Perbandingan lengkap antara neon box LED modern dan neon konvensional.',
+            content: `
+            <h2>Perbandingan</h2>
+            <h3>Neon Box LED</h3>
+            <ul>
+              <li>Hemat energi</li>
+              <li>Tahan lama (50.000 jam)</li>
+              <li>Cahaya merata</li>
+            </ul>
+            <h3>Neon Konvensional</h3>
+            <ul>
+              <li>Biaya awal lebih rendah</li>
+              <li>Efek klasik</li>
+              <li>Biaya listrik lebih tinggi</li>
+            </ul>
+            <p><strong>Kesimpulan:</strong> LED lebih unggul dalam jangka panjang.</p>
+            <p class="mt-3"><strong>WIKISA Advertising</strong> menyediakan neon box LED terbaik.</p>
+            `
+        }, {
+            id: 15,
+            tag: 'Branding',
+            title: 'Strategi Branding untuk UMKM di Era Digital',
+            excerpt: 'Panduan branding untuk UMKM di era digital dengan budget terbatas.',
+            content: `
+            <h2>Strategi Branding UMKM</h2>
+            <h3>1. Kenali Target Pasar</h3>
+            <h3>2. Bangun Identitas Visual yang Kuat</h3>
+            <ul>
+              <li>Logo simpel</li>
+              <li>Warna konsisten</li>
+              <li>Tipografi jelas</li>
+            </ul>
+            <h3>3. Manfaatkan Media Sosial</h3>
+            <h3>4. Optimalkan Signage & Neon Box</h3>
+            <p class="mt-3"><strong>WIKISA Advertising</strong> siap membantu branding UMKM Anda.</p>
+            `
+        }];
+
+        // Render blog cards
+        const container = document.getElementById('blogContainer');
+        blogData.forEach(blog => {
+            const col = document.createElement('div');
+            col.className = 'col-lg-4 col-md-6 col-sm-6';
+            col.setAttribute('data-aos', 'fade-up');
+            col.setAttribute('data-aos-duration', '500');
+            col.setAttribute('data-aos-delay', '0');
+            col.innerHTML = `
+            <div class="blog-card" data-blog-id="${blog.id}">
+              <div class="blog-img">
+                <i class="fas fa-newspaper"></i>
+                <span class="blog-date">10 Juli 2026</span>
+              </div>
+              <div class="blog-body">
+                <div class="blog-tag">${blog.tag}</div>
+                <h5>${blog.title}</h5>
+                <p>${blog.excerpt}</p>
+                <a class="btn-read" data-blog-id="${blog.id}">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a>
+              </div>
+            </div>
+          `;
+            container.appendChild(col);
+        });
+
+        // Modal handling
+        const modal = new bootstrap.Modal(document.getElementById('blogModal'));
+        const modalTitle = document.getElementById('blogModalTitle');
+        const modalBody = document.getElementById('blogModalBody');
+
+        document.querySelectorAll('.blog-card, .btn-read').forEach(el => {
+            el.addEventListener('click', function(e) {
+                const id = this.dataset.blogId || this.closest('.blog-card').dataset.blogId;
+                const blog = blogData.find(b => b.id == id);
+                if (blog) {
+                    modalTitle.textContent = blog.title;
+                    modalBody.innerHTML = `
+                <div class="blog-meta">Kategori: <span>${blog.tag}</span> | 10 Juli 2026</div>
+                ${blog.content}
+              `;
+                    modal.show();
+                }
+            });
+        });
+
+        // ============================================================
+        // 3. SCROLL TOP BUTTON
+        // ============================================================
+        const scrollBtn = document.getElementById('scrollTopBtn');
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 500) {
+                scrollBtn.classList.add('visible');
+            } else {
+                scrollBtn.classList.remove('visible');
+            }
+        });
+        scrollBtn.addEventListener('click', function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // ============================================================
+        // 4. NAVBAR ACTIVE LINK
+        // ============================================================
+        const sections = document.querySelectorAll('section[id]');
+        const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+
+        function highlightNav() {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 120;
+                if (scrollY >= sectionTop) {
+                    current = section.getAttribute('id');
+                }
+            });
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === '#' + current) {
+                    link.classList.add('active');
+                }
+            });
+        }
+        window.addEventListener('scroll', highlightNav);
+        highlightNav();
+
+        // ============================================================
+        // 5. SMOOTH SCROLL UNTUK NAV LINK
+        // ============================================================
+        document.querySelectorAll('.navbar-nav .nav-link').forEach(link => {
+            link.addEventListener('click', function(e) {
+                const targetId = this.getAttribute('href');
+                if (targetId.startsWith('#')) {
+                    e.preventDefault();
+                    const target = document.querySelector(targetId);
+                    if (target) {
+                        target.scrollIntoView({ behavior: 'smooth' });
+                    }
+                    // Tutup navbar mobile
+                    const navbarCollapse = document.querySelector('.navbar-collapse');
+                    if (navbarCollapse.classList.contains('show')) {
+                        navbarCollapse.classList.remove('show');
+                    }
+                }
+            });
+        });
+
+        // ============================================================
+        // 6. CONTACT FORM (Simulasi)
+        // ============================================================
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Terima kasih, pesan Anda telah dikirim! Kami akan segera menghubungi Anda.');
+            this.reset();
+        });
+
+        console.log('WIKISA Advertising website loaded successfully!');
+    </script>
+</body>
+</html>
